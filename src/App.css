@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 100px;
 }
 
 .App-logo {
@@ -35,4 +36,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li, ul {
+  list-style: none;
+}
+
+.lane-items-wrap {
+  display: flex;
+}
+
+.list-item-wrap {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form {
+ 
+}
+
+.text-input {
+  border-radius: 4px;
+  border: solid 2px grey;
+}
+
+.text-input:hover {
+  border: solid 2px #4b96ff;
+}
+
+.btn {
+  border-radius: 4pz;
+  margin-left: 10px;
+  border: solid 2px grey;
+}
+
+.btn:hover {
+  border: solid 2px #4b96ff;
+}
+
+.list-item {
+  width: 150px;
+  height: 100px;
+
+  padding: 8px;
+
+  border: solid 3px #535661;
+
+  background-color: #fff;
+
+  color: #000;
+
+  border-radius: 15%;
+}
+
+.list-item:hover {
+  padding: 8px;
+  border: solid 3px #4b96ff;
+  
+}
+
+.user-items {
+  width: 125px;
+  height: 75px;
+  
+  border: solid 3px #535661;
+
+  background-color: #fff;
+
+  color: #000;
+  border-radius: 50%;
+
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.user-items:hover {
+  padding: 8px;
+  border: solid 3px #4b96ff;
 }
